@@ -109,23 +109,15 @@ module.exports = {
           exampleMode: 'collapse', // 'hide' | 'collapse' | 'expand'
           usageMode: 'expand' // 'hide' | 'collapse' | 'expand'
         },
-
-      ],
-      sectionDepth: 2
-    },
-    {
-      name: "LNL Guide",
-      sections: [
         { 
           name: "LNL Components",
-          content: "src/components/LNLComponents/LNLComponents.md",
           components: "src/components/LNLComponents/*.js",
           exampleMode: 'collapse',
           usageMode: 'expand',
-        }, 
-        {},
-      ]
-    }
+        },
+      ],
+      sectionDepth: 2
+    },
    // {
    //   name: 'Documentation',
    //   sections: [
