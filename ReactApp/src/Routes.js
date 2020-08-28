@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 
-import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 
 
 // demos
@@ -32,6 +32,7 @@ import Main from './Main';
 import MainPublic from './MainPublic';
 import AutomationStudioContext from 'React-Automation-Studio/components/SystemComponents/AutomationStudioContext';
 
+import { CourseExamples } from "./components/courseExamples";
 
 const Routes = (props) => {
   const context = useContext(AutomationStudioContext);
@@ -94,7 +95,7 @@ const Routes = (props) => {
         <Route path="/Example3" component={Example3} />
         {/*staging end*/}
 
-
+        <Route path="/CourseExamples" component={CourseExamples} />
 
 
 
